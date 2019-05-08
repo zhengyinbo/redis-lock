@@ -4,6 +4,12 @@ spring:
     url: jdbc:mysql://:3306/seckill?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
     username: root
     password: CCZK@130788
+    
+  redis:
+    database: 0 # Redis数据库索引（默认为0）
+    host: 119.29.197.153 # Redis服务器地址
+    port: 6379 # Redis服务器连接端口
+    timeout: 0 # 连接超时时间（毫秒）
 
   jpa:
     show-sql: false
